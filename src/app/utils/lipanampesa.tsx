@@ -1,6 +1,6 @@
 import axios from "axios";
 
-const API_BASE_URL = "https://online-jersey-shop.onrender.com";
+const API_BASE_URL = "https://jerseyshop-backend.onrender.com";
 
 export const getAccessToken = async (): Promise<string> => {
   try {
